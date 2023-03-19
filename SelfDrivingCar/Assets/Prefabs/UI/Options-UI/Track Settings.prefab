@@ -1599,9 +1599,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6170481131206831133}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 50
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3574,7 +3574,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   genNextTog: {fileID: 7076287383927861146}
   genReshTog: {fileID: 7076287383789132549}
-  flattenViewBut: {fileID: 0}
   trackSettingsAnimator: {fileID: 8020160669705696213}
   optionsMainContainer: {fileID: 0}
   optionsMainAnimator: {fileID: 0}
