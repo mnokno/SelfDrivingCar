@@ -9,7 +9,7 @@ using System;
 public class DB_Controller
 {
     
-    public static string conn = "URI=file:" + Application.persistentDataPath + "/DB/DeepNet.db"; //Path to database
+    public static string conn = "URI=file:" + Application.dataPath + "/StreamingAssets/DB/DeepNet.db"; //Path to database
     public static bool SaveDeepNet(DeepNetRecord record)
     {
         try
